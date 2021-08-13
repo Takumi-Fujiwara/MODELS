@@ -16,7 +16,7 @@ F = [-m2*l*sin(y(2))*y(4)^2;0]; %Matriz Coriolis
 G = [0 ; m2*l*g*sin(y(2))];     %Matroz gravitacional
 B = [1;0];          %matriz externa
 V = [y(3);y(4)];    %Vetor velocidade
-P = [y(1);y(2)];    %Vetor posição
+P = [y(1);y(2)];    %Vetor posiÃ§Ã£o
 
 if t < 30 
     ut = 0;
